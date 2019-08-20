@@ -21,13 +21,13 @@ export const resolvers = {
       console.log('fargmentId: ', fragmentId);
       const photo = cache.readFragment({
         fragment,
-        id: 'Image:2hzoJ9'
+        id: fragmentId
       });
       console.log('photo', photo);
 
       // first we have to toggle the client-side only field
       cache.writeData({
-        id: 'Image:2hzoJ9',
+        id: fragmentId,
         data: {
           ...photo,
           isLiked: !photo.isLiked
