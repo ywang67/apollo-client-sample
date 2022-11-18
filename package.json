@@ -20,7 +20,7 @@
     "react-native-web": "latest",
     "react-router": "latest",
     "react-router-dom": "latest",
-    "react-scripts": "1.1.0",
+    "react-scripts": "5.0.1",
     "recyclerlistview": "1.2.6"
   },
   "devDependencies": {},
